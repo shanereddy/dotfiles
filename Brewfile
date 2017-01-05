@@ -21,6 +21,23 @@ brew 'wget'
 
 # Casks
 cask 'google-chrome'
+cask 'vlc'
+
+brew 'autoconf'
+brew 'coreutils'
+brew 'oniguruma'
+brew 'libtool'
+brew 'openssl'
+brew 'pkg-config'
+brew 'python'
+brew 'automake'
+brew 'gdbm'
+brew 'jq'
+brew 'libksba'
+brew 'libyaml'
+brew 'perl'
+brew 'readline'
+brew 'ruby'
 
 # Mas
 # mas '1Password', id: 443987910
