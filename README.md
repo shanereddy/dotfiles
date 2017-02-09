@@ -2,4 +2,4 @@
 `brew bundle`
 
 # dotfiles include:
-:beers:
+* :beers:
