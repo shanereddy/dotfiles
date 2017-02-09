@@ -19,6 +19,9 @@ brew 'speedtest_cli'
 brew 'ssh-copy-id'
 brew 'wget'
 
+# Music
+brew 'mp3splt'
+
 # Casks
 cask 'google-chrome'
 cask 'vlc'
