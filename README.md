@@ -1,2 +1,5 @@
-# dotfiles
-:beers:
+# How to run
+`brew bundle`
+
+# dotfiles include:
+* :beers:
