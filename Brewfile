@@ -41,6 +41,7 @@ brew 'libyaml'
 brew 'perl'
 brew 'readline'
 brew 'ruby'
+brew 'yarn'
 
 # Mas
 # mas '1Password', id: 443987910
