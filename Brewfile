@@ -19,12 +19,17 @@ brew 'speedtest_cli'
 brew 'ssh-copy-id'
 brew 'wget'
 
-# Music
-brew 'mp3splt'
-
 # Casks
 cask 'google-chrome'
 cask 'vlc'
+cask 'iterm2'
+cask 'evernote'
+cask 'visual-studio-code'
+cask 'firefox'
+cask 'slack'
+cask 'alfred'
+cask 'caffeine'
+cask 'clipmenu'
 
 brew 'autoconf'
 brew 'coreutils'
