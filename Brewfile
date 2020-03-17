@@ -47,6 +47,8 @@ brew 'perl'
 brew 'readline'
 brew 'ruby'
 brew 'yarn'
+brew 'zsh'
+brew 'zsh-completions'
 
 # Mas
 # mas '1Password', id: 443987910
