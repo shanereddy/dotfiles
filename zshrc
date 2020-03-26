@@ -1,12 +1,8 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/shane/.oh-my-zsh
+export ZSH=/Users/shaner/.oh-my-zsh
 
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$HOME/.yarn/bin:$PATH"
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre"
 
@@ -101,7 +97,14 @@ alias ohmyzsh="atom ~/.oh-my-zsh"
 alias speedtest-cli="speedtest-cli | ccze -A"
 alias listcontainers="docker ps -a"
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 export PATH="/usr/local/opt/v8@3.15/bin:$PATH"
 
 # zsh syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
