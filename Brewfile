@@ -16,6 +16,7 @@ brew 'vim'
 
 # Nifty features
 brew 'speedtest_cli'
+brew 'ccze'
 brew 'ssh-copy-id'
 brew 'wget'
 
