@@ -29,7 +29,7 @@ cask 'visual-studio-code'
 cask 'firefox'
 cask 'slack'
 cask 'alfred'
-cask 'caffeine'
+cask 'keepingyouawake'
 cask 'clipmenu'
 cask 'macs-fan-control'
 
