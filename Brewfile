@@ -32,6 +32,7 @@ cask 'alfred'
 cask 'keepingyouawake'
 cask 'clipmenu'
 cask 'macs-fan-control'
+cask 'powershell'
 
 brew 'autoconf'
 brew 'coreutils'
