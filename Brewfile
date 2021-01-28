@@ -33,6 +33,7 @@ cask 'keepingyouawake'
 cask 'clipmenu'
 cask 'macs-fan-control'
 cask 'powershell'
+cask 'meetingbar'
 
 brew 'autoconf'
 brew 'coreutils'
