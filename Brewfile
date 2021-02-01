@@ -1,59 +1,64 @@
-cask_args appdir: '/Applications'
-tap 'caskroom/cask'
-brew 'mas'
-
-# Version Control
-brew 'git'
-brew 'git-extras'
-
-# dbs
-brew 'mysql'
-brew 'sqlite'
-brew 'redis'
-
-# editors
-brew 'vim'
-
-# Nifty features
-brew 'speedtest_cli'
-brew 'ccze'
-brew 'ssh-copy-id'
-brew 'wget'
-
-# Casks
-cask 'google-chrome'
-cask 'vlc'
-cask 'iterm2'
-cask 'evernote'
-cask 'visual-studio-code'
-cask 'firefox'
-cask 'slack'
-cask 'alfred'
-cask 'keepingyouawake'
-cask 'clipmenu'
-cask 'macs-fan-control'
-cask 'powershell'
-cask 'meetingbar'
-
-brew 'autoconf'
-brew 'coreutils'
-brew 'oniguruma'
-brew 'libtool'
-brew 'openssl'
-brew 'pkg-config'
-brew 'python'
-brew 'automake'
-brew 'gdbm'
-brew 'jq'
-brew 'htop'
-brew 'libksba'
-brew 'libyaml'
-brew 'perl'
-brew 'readline'
-brew 'ruby'
-brew 'yarn'
-brew 'zsh'
-brew 'zsh-completions'
-
-# Mas
-# mas '1Password', id: 443987910
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "mongodb/brew"
+tap "sambadevi/powerlevel9k"
+brew "gdbm"
+brew "libyaml"
+brew "openssl@1.1"
+brew "readline"
+brew "sqlite"
+brew "ansible"
+brew "apktool"
+brew "autoconf"
+brew "automake"
+brew "azure-cli"
+brew "ccze"
+brew "coreutils"
+brew "git"
+brew "git-extras"
+brew "libksba"
+brew "gnupg"
+brew "gping"
+brew "htop"
+brew "jadx"
+brew "oniguruma"
+brew "jq"
+brew "libtool"
+brew "mas"
+brew "mysql"
+brew "pandoc"
+brew "pdf2htmlex"
+brew "perl"
+brew "pkg-config"
+brew "python@3.9"
+brew "redis"
+brew "ruby"
+brew "speedtest-cli"
+brew "ssh-copy-id", link: true
+brew "unrar"
+brew "v8"
+brew "v8@3.15"
+brew "vim"
+brew "wget"
+brew "yarn"
+brew "zlib"
+brew "zsh"
+brew "zsh-completions"
+brew "zsh-syntax-highlighting"
+brew "mongodb/brew/mongodb-community"
+brew "sambadevi/powerlevel9k/powerlevel9k"
+cask "alfred", args: { appdir: "/Applications" }
+cask "caffeine", args: { appdir: "/Applications" }
+cask "evernote", args: { appdir: "/Applications" }
+cask "firefox", args: { appdir: "/Applications" }
+cask "font-fira-code"
+cask "iterm2", args: { appdir: "/Applications" }
+cask "keepingyouawake"
+cask "keycastr"
+cask "powershell"
+cask "slack", args: { appdir: "/Applications" }
+cask "smcfancontrol"
+cask "vlc", args: { appdir: "/Applications" }
