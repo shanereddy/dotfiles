@@ -62,3 +62,4 @@ cask "powershell"
 cask "slack", args: { appdir: "/Applications" }
 cask "smcfancontrol"
 cask "vlc", args: { appdir: "/Applications" }
+cask "cakebrew"
